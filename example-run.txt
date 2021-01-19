@@ -1,0 +1,172 @@
+==Frequent itemsets (min_sup =1.0%)
+[A], 69.39%
+[Manhattan], 31.77%
+[Brooklyn], 25.65%
+[Queens], 23.79%
+[A, Manhattan], 21.02%
+[B], 21.01%
+[A, Brooklyn], 17.92%
+[A, Queens], 16.71%
+[Bronx], 13.13%
+[C], 9.59%
+[A, Bronx], 9.29%
+[08A], 7.77%
+[10F], 7.65%
+[B, Manhattan], 7.13%
+[04L], 6.32%
+[06D], 5.80%
+[06C], 5.79%
+[02G], 5.71%
+[Staten Island], 5.60%
+[10B], 5.54%
+[02B], 5.40%
+[B, Brooklyn], 5.40%
+[10F, A], 5.29%
+[04N], 5.10%
+[B, Queens], 4.86%
+[A, Staten Island], 4.41%
+[06D, A], 4.29%
+[08A, A], 4.27%
+[06C, A], 4.14%
+[10B, A], 4.08%
+[04L, A], 3.67%
+[C, Manhattan], 3.62%
+[02G, A], 3.43%
+[02B, A], 3.36%
+[06E], 2.96%
+[04N, A], 2.93%
+[06F], 2.84%
+[04H], 2.84%
+[09C], 2.83%
+[04M], 2.76%
+[B, Bronx], 2.70%
+[10H], 2.66%
+[08C], 2.62%
+[06A], 2.56%
+[09C, A], 2.52%
+[04A], 2.47%
+[Brooklyn, C], 2.33%
+[02H], 2.31%
+[06E, A], 2.30%
+[08A, B], 2.30%
+[10H, A], 2.27%
+[06F, A], 2.23%
+[C, Queens], 2.22%
+[08A, Manhattan], 2.20%
+[10I], 2.18%
+[09B], 2.09%
+[08C, A], 2.06%
+[10F, Manhattan], 2.00%
+[08A, Brooklyn], 1.97%
+[10I, A], 1.97%
+[10F, Brooklyn], 1.93%
+[04L, B], 1.91%
+[06A, A], 1.89%
+[02G, Manhattan], 1.84%
+[04L, Manhattan], 1.84%
+[04H, A], 1.83%
+[08A, Queens], 1.80%
+[06C, Manhattan], 1.76%
+[10F, Queens], 1.74%
+[09B, A], 1.72%
+[06D, Manhattan], 1.72%
+[04N, Manhattan], 1.70%
+[04L, Brooklyn], 1.65%
+[02G, B], 1.63%
+[10B, Manhattan], 1.61%
+[02B, Manhattan], 1.59%
+[02B, B], 1.49%
+[10F, B], 1.49%
+[04A, A], 1.48%
+[04L, Queens], 1.47%
+[06C, Brooklyn], 1.46%
+[02G, Brooklyn], 1.45%
+[02H, A], 1.45%
+[04M, A], 1.45%
+[04N, B], 1.45%
+[06D, Brooklyn], 1.45%
+[06C, Queens], 1.39%
+[10E], 1.39%
+[10B, Brooklyn], 1.37%
+[02B, Brooklyn], 1.37%
+[06D, Queens], 1.35%
+[02G, Queens], 1.34%
+[08A, Bronx], 1.34%
+[06B], 1.32%
+[10B, Queens], 1.29%
+[10F, A, Brooklyn], 1.27%
+[02B, Queens], 1.26%
+[10F, Bronx], 1.26%
+[04N, Brooklyn], 1.24%
+[10E, A], 1.23%
+[08A, C], 1.20%
+[10F, A, Manhattan], 1.20%
+[10F, A, Queens], 1.19%
+[04N, Queens], 1.15%
+[Bronx, C], 1.13%
+[06C, B], 1.13%
+[06C, A, Manhattan], 1.12%
+[06D, A, Manhattan], 1.12%
+[05D], 1.11%
+[06D, B], 1.11%
+[04C], 1.10%
+[08A, A, Brooklyn], 1.09%
+[10B, A, Manhattan], 1.09%
+[08A, A, Manhattan], 1.08%
+[06D, A, Brooklyn], 1.06%
+[06C, A, Queens], 1.04%
+[06C, A, Brooklyn], 1.04%
+[06B, A], 1.04%
+[04H, Manhattan], 1.03%
+[06E, Manhattan], 1.03%
+[04L, Bronx], 1.01%
+[02G, A, Manhattan], 1.01%
+[06D, A, Queens], 1.01%
+[08A, A, Queens], 1.01%
+[10F, A, Bronx], 1.00%
+[04L, A, Manhattan], 1.00%
+==High-confidence association rules (min_conf =50.0%)
+[10I] => [A] (Conf:90.22%  Supp:1.97%)
+[09C] => [A] (Conf:89.09%  Supp:2.52%)
+[10E] => [A] (Conf:88.87%  Supp:1.23%)
+[10H] => [A] (Conf:85.22%  Supp:2.27%)
+[09B] => [A] (Conf:82.39%  Supp:1.72%)
+[10F, Bronx] => [A] (Conf:79.93%  Supp:1.00%)
+[08C] => [A] (Conf:78.71%  Supp:2.06%)
+[Staten Island] => [A] (Conf:78.68%  Supp:4.41%)
+[06F] => [A] (Conf:78.52%  Supp:2.23%)
+[06B] => [A] (Conf:78.48%  Supp:1.04%)
+[06E] => [A] (Conf:77.54%  Supp:2.30%)
+[06C, Queens] => [A] (Conf:74.90%  Supp:1.04%)
+[06D, Queens] => [A] (Conf:74.79%  Supp:1.01%)
+[06D] => [A] (Conf:73.94%  Supp:4.29%)
+[06A] => [A] (Conf:73.81%  Supp:1.89%)
+[10B] => [A] (Conf:73.53%  Supp:4.08%)
+[06D, Brooklyn] => [A] (Conf:73.21%  Supp:1.06%)
+[06C] => [A] (Conf:71.50%  Supp:4.14%)
+[06C, Brooklyn] => [A] (Conf:71.21%  Supp:1.04%)
+[Bronx] => [A] (Conf:70.79%  Supp:9.29%)
+[Queens] => [A] (Conf:70.24%  Supp:16.71%)
+[Brooklyn] => [A] (Conf:69.85%  Supp:17.92%)
+[10F] => [A] (Conf:69.15%  Supp:5.29%)
+[10F, Queens] => [A] (Conf:68.16%  Supp:1.19%)
+[10B, Manhattan] => [A] (Conf:67.67%  Supp:1.09%)
+[Manhattan] => [A] (Conf:66.16%  Supp:21.02%)
+[10F, Brooklyn] => [A] (Conf:65.77%  Supp:1.27%)
+[06D, Manhattan] => [A] (Conf:65.21%  Supp:1.12%)
+[04H] => [A] (Conf:64.58%  Supp:1.83%)
+[06C, Manhattan] => [A] (Conf:63.71%  Supp:1.12%)
+[02H] => [A] (Conf:62.89%  Supp:1.45%)
+[02B] => [A] (Conf:62.28%  Supp:3.36%)
+[02G] => [A] (Conf:60.03%  Supp:3.43%)
+[10F, Manhattan] => [A] (Conf:59.87%  Supp:1.20%)
+[04A] => [A] (Conf:59.81%  Supp:1.48%)
+[04L] => [A] (Conf:58.13%  Supp:3.67%)
+[04N] => [A] (Conf:57.54%  Supp:2.93%)
+[08A, Queens] => [A] (Conf:56.00%  Supp:1.01%)
+[08A, Brooklyn] => [A] (Conf:55.39%  Supp:1.09%)
+[08A] => [A] (Conf:54.94%  Supp:4.27%)
+[02G, Manhattan] => [A] (Conf:54.94%  Supp:1.01%)
+[04L, Manhattan] => [A] (Conf:54.31%  Supp:1.00%)
+[04M] => [A] (Conf:52.57%  Supp:1.45%)
+
