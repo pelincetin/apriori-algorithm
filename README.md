@@ -1,22 +1,18 @@
-TEAMMATES: 
-==========
+## TEAMMATES: 
 
 Pelin Cetin [pc2807] and Justin Andrew Zwick [jaz2130]
 
-FILES WE ARE SUBMITTING:
-========================
+## FILES:
 
 1. main.py
 2. INTEGRATED-DATASET.csv
 3. example-run.txt 
 
-HOW TO RUN OUR PROGRAM:
-======================
+## HOW TO RUN OUR PROGRAM:
 
 python3 main.py INTEGRATED-DATASET.csv <min_support> <min_confidence>
 
-OUR DATASET:
-============
+## OUR DATASET:
 
 a) We started off with this dataset: https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j 
 It is the department of health's inspection results for different NYC restaurants.
@@ -38,8 +34,7 @@ Although Manhattan and the grade A appear the most frequently together out of al
 10F refers to the following violation code: "Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.". If a restaurant has the 10F violation code and is in Bronx, it's highly likely that its grade is A. This is compelling because although most people would probably not prefer to go to a restaurant with hygiene issues, the fact that it has a grade "A" would make people prefer to go there. 
 
 
-INTERNAL DESIGN:
-================
+## INTERNAL DESIGN:
 
 We start off by extracting the csv_filename, min_support and min_conf from the command line. We iterate over every line of the csv file, adding all transactions to a set to remove duplicates. Then we count item occurrences to determine the large 1-items. We iterate over the tuples we extracted from the csv file, count the initial occurrences. At this point, there is only one element in the tuples. Then, we get the item sets that are higher than or equal to the threshold defined by the user. If the tuple occurs less than the threshold, we pop that from the first_itemset we created in the previous step. If not, we append the tuple and its occurrence in the desired_itemset dictionary with the tuple being the key and the occurrence the value. We also append the tuple to the list l1 (large 1-itemset). 
 
@@ -48,8 +43,7 @@ In the prune step, we delete all item sets c E ck such that some (k-1)-subset of
 
 Lastly, we generate association rules using those items in the item sets. We do this by using the algorithm the professor explained in the 9th lecture. We first find all large item sets (by iterating over the desired_itemset dictionary's keys and making sure that the frequency is bigger than zero) and then for each large itemset, we find all association rules with sufficient confidence (by calculating the confidence of each tuple and comparing that to min_confidence). 
 
-SAMPLE RUN:
-===========
+## SAMPLE RUN:
 
 This was called using "python3 main.py INTEGRATED-DATASET.csv 0.01 0.01"
 The results are compelling because it shows the user compelling relations between violations and grades and boroughs. We eat food everyday and a large fraction of the population eat outside. We may go somewhere thinking that because it's grade A, it must be clean. However, the restaurant might have violated several codes and still received a good grade. 
